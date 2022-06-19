@@ -14,6 +14,16 @@ rbga ( 255,255,255,0.6) -color for text adres footer*/
 /* back-round color for main" portfolio" and section adventeges and "what we do"#E5E5E5*/
 
 /* back-round color for section our team #F5F4FA */
+
+html{
+   box-sizing: border-box;
+}
+*,
+*::before
+*::after{
+   box-sizing: inherit;
+}
+
 :root{
    --primary-text-color :#757575;
    --second-text-color: #212121;
