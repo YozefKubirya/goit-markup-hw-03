@@ -1,0 +1,265 @@
+/* primary text color #757575 */
+
+/* second-text-color :#212121   */
+
+/* accent-text-color :#2196F3 */
+
+/* accent-text-color-hero :#FFFFFF 
+
+rbga ( 255,255,255,0.6) -color for text adres footer*/
+
+/* back-round color #FFFFFF */
+/* back-round color for footer and hero #2F303A  */
+
+/* back-round color for main" portfolio" and section adventeges and "what we do"#E5E5E5*/
+
+/* back-round color for section our team #F5F4FA */
+:root{
+   --primary-text-color :#757575;
+   --second-text-color: #212121;
+   --accent-text-color: #2196F3;
+   --accent-text-color-white: #FFFFFF;
+   --footer-text-color:#FFFFFF99;
+   --back-round-color:#FFFFFF;
+   --back-round-color-footer-hero:#2F303A;
+   --back-round-color-section:#E5E5E5;
+   --back-round-color-team:#F5F4FA;
+}
+body{background-color:var(--back-round-color) ;
+   color:var(--primary-text-color);
+   font-family: Roboto,
+      Oxygen,
+      Ubuntu,
+      Cantarell,
+      'Open Sans',
+      'Helvetica Neue',
+      sans-serif;
+      font-weight: 400;
+      font-style: normal;
+}
+/* Header */
+.list{
+   list-style: none;
+}
+
+/* logo */
+.logo {
+   color: var(--accent-text-color);
+   font-family: 'Raleway', sans-serif;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 1, 19;
+   letter-spacing: 0.03em;
+   text-decoration: none;
+}
+
+.logo-accent {
+   color: var(--second-text-color);
+}
+
+/* site-nav */
+.site-nav .link{
+   color: var(--second-text-color);
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 1.14;
+   letter-spacing: 0.02em;
+   text-decoration: none;
+} 
+.site-nav .link:hover,
+.site-nav .link:focus{
+   color: var(--accent-text-color);
+}
+.site-nav .link.current{
+   color: var(--accent-text-color);
+}
+
+/* contacts */
+.contacts .link{
+   color: var(--primary-text-color);
+   font-weight: 500;
+      font-size: 14px;
+      line-height: 1.14;
+      letter-spacing: 0.02em;
+      text-decoration: none;
+}
+.contacts .link:hover,.link:focus{
+   color: var(--accent-text-color);
+}
+
+/* main */
+/* hero */
+.hero{
+   background-color:var(--back-round-color-footer-hero) ;
+}
+.hero-title{
+   color: var(--accent-text-color-white);
+   font-weight: 900;
+   font-size: 44px;
+   line-height: 1.36;
+   /* or 136% */
+   text-align: center;
+   letter-spacing: 0.06em;
+   text-transform: uppercase;
+}
+
+/* button */
+.button.primary{
+   background-color: var(--accent-text-color);
+   color: var(--accent-text-color-white);
+   font-family: inherit;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 1.87;
+      /* identical to box height, or 188% */
+      display: flex;
+      align-items: center;
+      text-align: center;
+      letter-spacing: 0.06em;
+      cursor: pointer;
+}
+
+
+.button.secondary{
+   background-color: var(--back-round-color-team);
+   color: var(--second-text-color);
+   font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.62;
+      /* identical to box height, or 162% */
+      text-align: center;
+      letter-spacing: 0.03em;
+}
+.button.secondary:hover,
+.button.secondary:focus{
+   background-color: var(--accent-text-color);
+   color: var(--accent-text-color-white);
+}
+
+
+/* section */
+.section-title{
+      color: var(--second-text-color);
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 1.1;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+}
+/* features */
+.features-list .title{
+      color: var(--second-text-color);
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 1.14;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+}
+.features-list .text{
+   color: var(--primary-text-color);
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 1.71;
+      /* or 171% */
+      letter-spacing: 0.03em;
+}
+/* what we do */
+.section-job{
+      color: var(--second-text-color);
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 1.16;
+      text-align: center;
+      letter-spacing: 0.03em;
+}
+/* comands */
+.section-comand{
+    color: var(--second-text-color);
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 1.16;
+      text-align: center;
+      letter-spacing: 0.03em;
+}
+.comands-list .title{
+      color: var(--second-text-color);
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.18;
+      /* identical to box height */
+      letter-spacing: 0.03em;
+}
+.comands-list .text{
+   color: var(--primary-text-color);
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 1.18;
+   /* identical to box height */
+   letter-spacing: 0.03em;
+}
+
+/* footer */
+.footer{
+  background-color: var(--back-round-color-footer-hero);
+}
+.footer .text{
+      color: var(--accent-text-color-white);
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 1.71;
+      /* or 171% */
+      letter-spacing: 0.03em;
+      
+}
+.address .link{
+      color: var(--footer-text-color);
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 1.71;
+      /* or 171% */
+      letter-spacing: 0.03em;
+      text-decoration: none;
+}
+.address .link:hover,.link:focus{
+   color: var(--accent-text-color);
+}
+
+/* footer logo */
+.footer .logo {
+   font-family: 'Raleway', sans-serif;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 1, 19;
+   letter-spacing: 0.03em;
+   color: var(--accent-text-color);
+}
+
+.footer .logo-accent {
+   color: var(--accent-text-color-white);
+}
+/* portfolio */
+.portfolio-proects .title{
+   color: var(--second-text-color);
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 2;
+   /* identical to box height, or 200% */
+   letter-spacing: 0.06em;
+}
+.portfolio-proects.text{
+   color: var(--primary-text-color);
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 1.87;
+   /* identical to box height, or 188% */
+   letter-spacing: 0.03em;
+}
