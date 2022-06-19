@@ -47,6 +47,13 @@ body{background-color:var(--back-round-color) ;
       font-weight: 400;
       font-style: normal;
 }
+/* container */
+.container{
+   width: 1230px;
+      padding-left: 15px;
+      padding-right: 15px;
+      margin: 0 auto;
+}
 /* Header */
 .list{
    list-style: none;
