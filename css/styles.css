@@ -47,19 +47,29 @@ body{background-color:var(--back-round-color) ;
       font-weight: 400;
       font-style: normal;
 }
+
 /* container */
 .container{
+   
    width: 1230px;
       padding-left: 15px;
       padding-right: 15px;
-      margin: 0 auto;
+      margin-left:  auto;
+      margin-right: auto;
+      outline: 2px solid tomato;
 }
+
 /* Header */
 .list{
+   padding: 0;
+   margin: 0;
    list-style: none;
 }
 
 /* logo */
+.page-header{
+   background-color: #cccc;
+}
 .logo {
    color: var(--accent-text-color);
    font-family: 'Raleway', sans-serif;
@@ -73,10 +83,38 @@ body{background-color:var(--back-round-color) ;
 
 .logo-accent {
    color: var(--second-text-color);
+
+}
+/* main-nav */
+.main-nav{
+   display: flex;
+   align-items: center;
+
 }
 
 /* site-nav */
+
+
+.site-nav{
+   display: flex;
+   margin-left: 93px;
+  
+}
+/* .site-nav .item{
+   background-color: tomato;
+   /* margin-right: 50px; }*/
+
+ /* .site-nav .item:last-child{
+    margin-right: 0;
+ } */
+  .site-nav .item:not(:last-child){
+     margin-right: 50px;
+  }
+
 .site-nav .link{
+   display: block;
+   padding-top:32px ;
+   padding-bottom :32px; ;
    color: var(--second-text-color);
    font-weight: 500;
    font-size: 14px;
@@ -93,7 +131,20 @@ body{background-color:var(--back-round-color) ;
 }
 
 /* contacts */
+
+.contacts {
+   display: flex;
+   align-items: center;
+   margin-left: auto;
+   
+}
+.contacts .item:not(:last-child){
+   margin-right: 50px;
+}
 .contacts .link{
+   display: block;
+   padding-top: 32px;
+   padding-bottom: 32px;
    color: var(--primary-text-color);
    font-weight: 500;
       font-size: 14px;
