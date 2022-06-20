@@ -56,7 +56,7 @@ body{background-color:var(--back-round-color) ;
       padding-right: 15px; */
       margin-left:  auto;
       margin-right: auto;
-      outline: 2px solid tomato;
+      /* outline: 2px solid tomato; */
 }
 
 /* Header */
