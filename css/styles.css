@@ -68,8 +68,10 @@ body{background-color:var(--back-round-color) ;
 
 /* logo */
 .page-header{
-   
-   border: 1px solid #ECECEC;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #ECECEC;
+
    /* padding-top: 94px;
       padding-bottom: 94px; */
    
@@ -342,7 +344,7 @@ body{background-color:var(--back-round-color) ;
   
 }
 .comands-list .title{
-    
+    margin-top: 0;
        margin-bottom: 10px; 
       color: var(--second-text-color);
       font-weight: 500;
